@@ -6,7 +6,6 @@ public class Weather {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingresa la temperatura en °C de tu ciudad: ");
-        System.out.println();
         int temperature = scanner.nextInt();
 
         //Si es bajo 0: Te estás congelando
