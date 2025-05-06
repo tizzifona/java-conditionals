@@ -36,6 +36,8 @@ public class Weather {
         else {
             System.out.println("Temperatura no válida");
         }
+
+        scanner.close();
         //Imprime el resultado
     }
 }
